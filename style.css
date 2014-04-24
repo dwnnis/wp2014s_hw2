@@ -1,0 +1,173 @@
+h1, h2, h4, nav li a {
+  font-family: "Headland One", Georgia, serif; 
+}
+
+footer a{
+	font-size: 24px;
+	color: white;
+}
+
+
+h1 {
+	font-size: 48px;
+	margin-top: 80px;
+	margin-bottom: 10px;
+	color: #002e40; 
+	font-family: 'Sniglet', cursive;
+}
+
+h2 {
+	margin-top: 50px;
+	margin-bottom: 30px;
+	font-size: 28px; 
+	font-family: 'Sniglet', cursive;
+}
+
+h4 {
+	font-size: 20px;
+	margin-bottom: 10px; 
+	font-family: 'Sniglet', cursive;
+}
+
+ul {
+	list-style: none; 
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Sniglet', cursive;
+}
+
+.logo {
+	text-align: center;
+	position: fixed;
+	color: #002e40;
+	left: 0px;
+}
+
+.nav-container{
+	background-color: #FFA840;
+	width: 100%;
+	position: fixed;
+	left: 0px;
+}
+
+
+nav {
+	text-align: center;
+	width: 900px;
+	margin: 0px auto;
+}
+nav ul {
+	padding: 0px;
+}
+
+nav li {
+	width: 24%;
+	display: inline-block;
+}
+
+nav li a {
+    font-size: 25px;
+	font-family: 'Inder', sans-serif;
+    color: white; 
+	text-decoration: none;
+}
+
+nav li a.active {
+    color: #aaaaaa; 
+}
+
+nav ul .about{
+	font-size: 25px;
+	font-family: 'Inder', sans-serif;
+    color: white;
+}
+nav ul .about :hover{
+	font-size: 25px;
+	font-family: 'Inder', sans-serif;
+    color: #aaaaaa;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 640px) {
+	nav {
+		width: 90%; 
+	}
+	nav li a {
+		font-size: 18px; 
+	} 
+}
+
+section {
+	padding-top: 40px;
+	height: 1200px;
+	width: 100%;
+}
+
+section .content {
+	margin: 0px auto;
+    max-width: 640px;
+	height: 500px;
+}
+section .skills {
+	float: right;
+}
+/*
+section .skills img:hover{
+	color: #A4A4A4;
+}
+*/
+@media screen and (max-width: 640px) {
+	section .content {
+		margin: 0px auto;
+        width: 90%; 
+	} 
+}
+
+/*
+section:nth-child(odd) {
+	background-color: #002e40;
+	color: white; 
+}*/
+
+#about{
+	background-color: #63aad1;
+	text-align: right;
+	height: 600px
+}
+#about .me{
+	float: left;
+}
+
+#learning{
+	background-color: #086CA2; 
+	height: 600px;
+}
+
+#life{
+	background-color: #3c9dd1;
+	height: 1000px;
+}
+
+footer{
+	padding: 3px;
+	margin: 0px;
+	background-color: #BF7130;
+	text-align: center;
+}
+
+.resize{
+	width: 120px;
+	height: 120px;
+	position: realtive;
+	float: left;
+	margin: 3px;
+	margin-bottom: 30px;
+	
+}
+.poster{
+	width: 200px;
+	margin: 4px;
+}
