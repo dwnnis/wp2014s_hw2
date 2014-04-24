@@ -1,0 +1,48 @@
+header: about/learning/life/contact
+
+@about.me
+
+Hi! I'm Dennis. A college student from Taipei, Taiwan.
+
+(School) National Chengchi University
+(Major) Computer Science
+(Minor) Economics
+
+
+@learning.me
+
+A beginner on HTML/CSS.
+
+
+
+
+@life.me
+
+recently listen:
+
+sza - z
+neil young & crazy horse - rust never sleeps
+sisyphus - sisyphus
+yg - my krazy life
+chromatics - kill for love
+
+recently watched: 
+
+the boy who smell like fish.
+
+
+
+
+
+
+
+自我介紹頁:
+
+	Short introduction
+	基本資料
+	education
+	interest in music/currently listening to
+	
+	
+	
+
