@@ -30,10 +30,18 @@ $.scrollIt({
 </script>
 <title>Just a lil something 'bout me</title>
 <!--<link rel="stylesheet" type="text/css" href="/style.css">-->
+
 </head>
 
 <body>
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&appId=258715837647139&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div class="nav-container">
 <nav>
 	<ul>
@@ -97,6 +105,7 @@ $.scrollIt({
 
 <footer>
 <p>Page Designed By Dennis Wang 2014<br>
+<div class="fb-comments" data-href="file:///C:/Users/master/Desktop/web/hw2_aboutme/intro.html" data-width="500" data-numposts="5" data-colorscheme="light"></div><br>
 <a data-scroll-goto="0">Back to top</a>
 </p>
 </footer>
